@@ -1,0 +1,37 @@
+
+{
+  "name": "root-language",
+  "displayName": "ROOT Language Support",
+  "description": "Syntax highlighting support for the ROOT programming language.",
+  "version": "0.1.0",
+  "publisher": "Amirreza-Asari",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "repository": {"url": "https://github.com/AmirrezaAsari/Root-Programing-Language"},
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "root",
+        "aliases": [
+          "ROOT",
+          "root"
+        ],
+        "extensions": [
+          ".root"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "root",
+        "scopeName": "source.root",
+        "path": "./syntaxes/root.tmLanguage.json"
+      }
+    ]
+  }
+}
