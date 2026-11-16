@@ -1,0 +1,10 @@
+
+fn main() -> i32 {
+    let mut x: i32 = 10;
+    x = x + 5;
+
+    // Print the result
+    print(x);
+
+    return 0;
+}
